@@ -1,10 +1,10 @@
 //THIS IS THE TABLE TAG CONFERENCE LOGOS
 const table = document.querySelector(".tableOfLogos");
-console.log(table);
+//console.log(table);
 
 //THIS IS THE DIV CLASS OF THE CONFERENC LOGOS
 const divLogos = document.querySelector(".ConferenceDivLogos");
-console.log(divLogos);
+//console.log(divLogos);
 
 //This block of code I added my two buttons on landing page
 //These will be the two buttons 'Easy Trivia Game', 'Hard Trivia Game'
@@ -24,3 +24,18 @@ hardBtn.id = "btn2";
 hardBtn.setAttribute("align", "center");
 hardBtn.appendChild(hardGameBtn);
 document.body.appendChild(hardBtn);
+
+//make buttons clickable
+
+let btn1 = document.querySelector("#btn1");
+console.log(btn1);
+let btn2 = document.querySelector("#btn2");
+console.log(btn2);
+
+btn1.addEventListener("click", function() {
+  console.log("I clicked the easy button");
+});
+
+btn2.addEventListener("click", function() {
+  console.log("I clicked the hard button");
+});
