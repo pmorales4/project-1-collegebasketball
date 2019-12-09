@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modalStyles.css">
     <title>College Basketball Trivia Game</title>
 
 </head>
 
 <body>
-
     <h1>******************** UNDER CONSTRUCTION **********************</h1>
-
-
-
     <h1>COLLEGE BASKETBALL TRIVIA GAME ONLINE</h1>
     <hr>
     <h2>The following list of College Basketball Conferences is where all question will be
@@ -23,24 +20,28 @@
         1. What school played in the final four in 1999?
         2. What school had the backboard shattered during normal play during the season?
     </h2>
-
     <div class="ConferenceDivLogos">
         <table class="tableOfLogos">
             <tr>
                 <td>
                     <img class="resizeImage" src="images/ConferencesLogos/A10Logo.png" alt="">
+                    <button id="modalBtn1">Atlantic 10 List</button>
                 </td>
                 <td>
                     <img class="resizeImage" src="images/ConferencesLogos/ACCLogo.jpg" alt="">
+                    <button id="modalBtn2">Atlantic Coast List</button>
                 </td>
                 <td>
                     <img class="resizeImage" src="images/ConferencesLogos/Big10Logo.jpg" alt="">
+                    <button id="modalBtn3">Big Ten List</button>
                 </td>
                 <td>
                     <img class="resizeImage" src="images/ConferencesLogos/Big12Logo.png" alt="">
+                    <button id="modalBtn4">Big 12 List</button>
                 </td>
                 <td>
                     <img class="resizeImage" src="images/ConferencesLogos/BigEastLogo.jpg" alt="">
+                    <button id="modalBtn5">Big East List</button>
                 </td>
             </tr>
             <tr>
@@ -61,6 +62,95 @@
                 </td>
             </tr>
         </table>
+    </div>
+
+
+    <!-- Modal Areas for Conference Logos -->
+    <div id="firstModal" class="firstModal">
+        <div class="modal-content">
+            <span class="closeFirstModal">&times;</span>
+            <h2>ATLANTIC 10 BASKETBALL LIST</h2>
+            <ul>
+                <li>Duquesne</li>
+                <li>George Mason University</li>
+                <li>Richmond University</li>
+                <li>Saint Louis</li>
+                <li>Dayton University</li>
+                <li>VCU</li>
+                <li>Rhode Island</li>
+                <li>Fordham</li>
+                <li>La Salle</li>
+                <li>St. Bonaventure</li>
+                <li>George Washington University</li>
+                <li>UMass</li>
+                <li>Davidson University</li>
+                <li>Saint Josephs University</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="firstModal2" class="firstModal2">
+        <div class="modal-content">
+            <span class="closeFirstModal2">&times;</span>
+            <h2>ATLANTIC COAST BASKETBALL LIST</h2>
+            <ul>
+                <li>Boston University</li>
+                <li>Clemson University</li>
+                <li>Duke University</li>
+                <li>Florida State University</li>
+                <li>Georgia Tech</li>
+                <li>Louisville</li>
+                <li>Miami</li>
+                <li>North Carolina Tar Heels</li>
+                <li>NC State</li>
+                <li>Notre Dame</li>
+                <li>Pittsburgh University</li>
+                <li>Syracuse University</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="firstModal3" class="firstModal3">
+        <div class="modal-content">
+            <span class="closeFirstModal3">&times;</span>
+            <h2>ATLANTIC COAST BASKETBALL LIST</h2>
+            <ul>
+                <li>University of Nebraska</li>
+                <li>University of Iowa</li>
+                <li>Rutgers University</li>
+                <li>Indiana Univesity</li>
+                <li>Michigan State University</li>
+                <li>University of Maryland</li>
+                <li>The Ohio State Univesity</li>
+                <li>Penn State University</li>
+                <li>University of Minnesota</li>
+                <li>Purdue University</li>
+                <li>University of Illinois at Urbana-Champaign</li>
+                <li>University of Wisconsin</li>
+                <li>Univesity of Michigan - Ann Arbor</li>
+                <li>Northwestern University</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="firstModal4" class="firstModal4">
+        <div class="modal-content">
+            <span class="closeFirstModal4">&times;</span>
+            <h2>ATLANTIC COAST BASKETBALL LIST</h2>
+            <ul>
+                <li>Baylor University</li>
+                <li>Iowa State University</li>
+                <li>University of Kansas</li>
+                <li>Kansas State University</li>
+                <li>University of Oklahoma</li>
+                <li>Oklahoma State University</li>
+                <li>Texas Christian University</li>
+                <li>University of Texas</li>
+                <li>Texas Tech University</li>
+                <li>West Virginia University</li>
+            </ul>
+        </div>
     </div>
 
     <script src="script.js"></script>

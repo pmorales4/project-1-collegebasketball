@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 1.6;
+
+}
+
+#modalBtn1,
+#modalBtn2,
+#modalBtn3,
+#modalBtn4,
+#modalBtn5 {
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+#modalBtn1:hover,
+#modalBtn2:hover,
+#modalBtn3:hover,
+#modalBtn4:hover,
+#modalBtn5:hover {
+    background: red;
+
+}
+
+.firstModal,
+.firstModal2,
+.firstModal3,
+.firstModal4 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: silver;
+    margin: 20% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 7, 20, 0.17);
+}
+
+.closeFirstModal,
+.closeFirstModal2,
+.closeFirstModal3,
+.closeFirstModal4 {
+    color: seashell;
+    float: right;
+    font-size: 30px;
+    ;
+}
+
+.closeFirstModal:hover,
+.closeFirstModal:focus,
+.closeFirstModal2:hover,
+.closeFirstModal2:focus,
+.closeFirstModal3:hover,
+.closeFirstModal3:focus,
+.closeFirstModal4:hover,
+.closeFirstModal4:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
