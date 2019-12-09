@@ -166,7 +166,7 @@ function closeM9() {
 }
 //************* MODAL Pac 12 CONFERENCE ENDS ***********/
 
-//This is the Pac 12 Conference
+//This is the SEC Conference
 const firstModal10 = document.querySelector("#firstModal10");
 let modalBtn10 = document.querySelector("#modalBtn10");
 const closeFirstModal10 = document.querySelector(".closeFirstModal10");
@@ -179,4 +179,4 @@ function openM10() {
 function closeM10() {
   firstModal10.style.display = "none";
 }
-//************* MODAL Pac 12 CONFERENCE ENDS ***********/
+//************* MODAL SEC CONFERENCE ENDS ***********/
