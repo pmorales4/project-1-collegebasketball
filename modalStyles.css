@@ -9,7 +9,12 @@ body {
 #modalBtn2,
 #modalBtn3,
 #modalBtn4,
-#modalBtn5 {
+#modalBtn5,
+#modalBtn6,
+#modalBtn7,
+#modalBtn8,
+#modalBtn9,
+#modalBtn10 {
     width: 150px;
     background-color: black;
     color: white;
@@ -19,7 +24,12 @@ body {
 #modalBtn2:hover,
 #modalBtn3:hover,
 #modalBtn4:hover,
-#modalBtn5:hover {
+#modalBtn5:hover,
+#modalBtn6:hover,
+#modalBtn7:hover,
+#modalBtn8:hover,
+#modalBtn9:hover,
+#modalBtn10:hover {
     background: red;
 
 }
@@ -27,7 +37,13 @@ body {
 .firstModal,
 .firstModal2,
 .firstModal3,
-.firstModal4 {
+.firstModal4,
+.firstModal5,
+.firstModal6,
+.firstModal7,
+.firstModal8,
+.firstModal9,
+.firstModal10 {
     display: none;
     position: fixed;
     z-index: 1;
@@ -50,7 +66,13 @@ body {
 .closeFirstModal,
 .closeFirstModal2,
 .closeFirstModal3,
-.closeFirstModal4 {
+.closeFirstModal4,
+.closeFirstModal5,
+.closeFirstModal6,
+.closeFirstModal7,
+.closeFirstModal8,
+.closeFirstModal9,
+.closeFirstModal10 {
     color: seashell;
     float: right;
     font-size: 30px;
@@ -64,7 +86,19 @@ body {
 .closeFirstModal3:hover,
 .closeFirstModal3:focus,
 .closeFirstModal4:hover,
-.closeFirstModal4:focus {
+.closeFirstModal4:focus,
+.closeFirstModal5:hover,
+.closeFirstModal5:focus,
+.closeFirstModal6:hover,
+.closeFirstModal6:focus,
+.closeFirstModal7:hover,
+.closeFirstModal7:focus,
+.closeFirstModal8:hover,
+.closeFirstModal8:focus,
+.closeFirstModal9:hover,
+.closeFirstModal9:focus,
+.closeFirstModal10:hover,
+.closeFirstModal10:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
