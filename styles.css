@@ -23,14 +23,14 @@ body {
 /* FIRST BUTTON FOR EASY TRIVIA GAME */
 #btn1 {
   padding: 5px;
-  border: 2px solid coral;
+  border: 4px solid rgb(243, 88, 41);
   font-size: medium;
 }
 
 /* SECOND BUTTON FOR HARD TRIVIA GAME */
 #btn2 {
   padding: 5px;
-  border: 2px solid coral;
+  border: 4px solid rgb(243, 88, 41);
   font-size: medium;
 }
 
