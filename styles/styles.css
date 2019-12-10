@@ -40,11 +40,12 @@ h1 {
   padding: 20px;
   font-size: x-large;
 }
-
+/* horizontal line on landing page */
 hr {
   border-top: 3px solid black;
 }
 
+/* italics within statements on homepage */
 i {
   text-decoration: underline;
 }

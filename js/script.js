@@ -33,9 +33,131 @@ let btn2 = document.querySelector("#btn2");
 console.log(btn2);
 
 btn1.addEventListener("click", function() {
-  console.log("I clicked the easy button");
+  //console.log("I clicked the easy button");
+  
+  window.location.href =
+    "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
+  //navigator(new URL('/game.html/'));
 });
 
 btn2.addEventListener("click", function() {
-  console.log("I clicked the hard button");
+  //console.log("I clicked the hard button");
+  window.location.href =
+    "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
 });
+
+//Variables Needed for Project on Game.html page
+
+//Array of objects for easy game
+let easyGame = [
+  {
+    Question1:
+      "What NCAA Division I basketball team has the most national championships?",
+    Answer1: "UCLA",
+  },
+  {
+    Question2:
+      "When was the First Naismith College Coach of the Year Award first awarded and who was the recipient?",
+    Answer2: " Coach Bobby Knight - 1986-1987",
+  },
+  {
+    Question3:
+      "The UCLA men hold the record for the most men's Division I NCAA chanpionships with 11. When did the UCLA men win their first basketball national championship?",
+    Answer3: "The was 1964",
+  },
+  {
+    Question4: "When was the first college basketball game played?",
+    Answer4: "January 18, 1896",
+  },
+  {
+    Question5:
+      " What school won the first NCAA Mens Basketball National Championships?",
+    Answer5: "Oregon in 1939",
+  },
+  {
+    Question6: "What teams were in the Final Four back in 2000?",
+    Answer6: "Tar Heels, Michigan State, Florida Gators, Wisconsin",
+  },
+  {
+    Question7:
+      "What team won the National Championships in 2000 for Mens College Basketball",
+    Answer7: "Michigan State Spartans",
+  },
+  {
+    Question8:
+      "What team won the National Championship in 1995 mens college basketball?",
+    Answer8: "UCLA Bruins",
+  },
+  {
+    Question9:
+      "Who was the Most Outstanding Player in the 1995 Mens College Basketball Championship?",
+    Answer9: "Ed O'Bannon - UCLA",
+  },
+  {
+    Question10:
+      "The 1995 NBA draft picked two players from the North Carolina Tar Heels in the top 5, who are they?",
+    Answer10: "Jerry Stackhouse and Rasheed Wallace",
+  },
+];
+
+for (let i = 0; i < easyGame.length; i++) {
+  console.log(easyGame[i]);
+}
+
+console.log("ABOVE THE EASY GAME");
+//*************************************************************** */
+
+let hardGame = [
+  {
+    Question1:
+      "He was drafted out of Syracuse University in 1990 as the number pick in the NBA draft, who is he?",
+    Answer1: "Derrick Coleman",
+  },
+  {
+    Question2:
+      "Syracuse University had a point guard that went by the name of the - General, who is he?",
+    Answer2: "Sherman Douglas",
+  },
+  {
+    Question3:
+      "In 1984, Georgetown led by Patrick Ewing, won their first National Championship. Which school did they defeat 84-75 in the championship Game?",
+    Answer3: "Houston - Phi Slamma Jamma",
+  },
+  {
+    Question4:
+      "In the 1992 East regional final, Christian Laettner hit the game winning basket from the top of the key with one second left to lift DUKE to a 104-103 win. What team was their opponent?",
+    Answer4: "Kentucky Wildcats",
+  },
+  {
+    Question5: "Who was the loset against North Carolina in 1993?",
+    Answer5: "East Caroline University",
+  },
+  {
+    Question6:
+      "1985 was the first year the NCAA tournament had a grand total of 64 teams. Villanova defeated Georgetown to become the first national championship of the new format. Who was the loser?",
+    Answer6: "Marshall",
+  },
+  {
+    Question7:
+      "Kentucky was stunned by which all African American starting lineup team in the 1966 National Championship? Hint: a movie was made about this team. ",
+    Answer7: "Texas Western University",
+  },
+  {
+    Question8:
+      "Syracuse was the National Champions in 2003, Who was the most outstanding polayer?",
+    Answer8: "Carmelo Anthony",
+  },
+  {
+    Question9:
+      "The very first Final Four, played in 1939, was held in which midwestern city?",
+    Answer9: "Evanston, Illinois",
+  },
+  {
+    Question10: "In 1993, Southern Univesity beat what #4 team?",
+    Answer10: "Georgia Teach",
+  },
+];
+
+for (let j = 0; j < hardGame.length; j++) {
+  console.log(hardGame[j]);
+}
