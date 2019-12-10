@@ -35,7 +35,20 @@ body {
 }
 
 /* TITLES WITHIN INDEX.HTML */
-h1,
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: x-large;
+}
+
+hr {
+  border-top: 3px solid black;
+}
+
+i {
+  text-decoration: underline;
+}
+
 h2 {
   text-align: center;
 }
