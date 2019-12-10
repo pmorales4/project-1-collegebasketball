@@ -34,7 +34,7 @@ console.log(btn2);
 
 btn1.addEventListener("click", function() {
   //console.log("I clicked the easy button");
-  
+
   window.location.href =
     "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
   //navigator(new URL('/game.html/'));
@@ -49,7 +49,7 @@ btn2.addEventListener("click", function() {
 //Variables Needed for Project on Game.html page
 
 //Array of objects for easy game
-let easyGame = [
+let triviaGame = [
   {
     Question1:
       "What NCAA Division I basketball team has the most national championships?",
@@ -98,66 +98,56 @@ let easyGame = [
       "The 1995 NBA draft picked two players from the North Carolina Tar Heels in the top 5, who are they?",
     Answer10: "Jerry Stackhouse and Rasheed Wallace",
   },
-];
-
-for (let i = 0; i < easyGame.length; i++) {
-  console.log(easyGame[i]);
-}
-
-console.log("ABOVE THE EASY GAME");
-//*************************************************************** */
-
-let hardGame = [
   {
-    Question1:
+    Question11:
       "He was drafted out of Syracuse University in 1990 as the number pick in the NBA draft, who is he?",
-    Answer1: "Derrick Coleman",
+    Answer11: "Derrick Coleman",
   },
   {
-    Question2:
+    Question12:
       "Syracuse University had a point guard that went by the name of the - General, who is he?",
-    Answer2: "Sherman Douglas",
+    Answer12: "Sherman Douglas",
   },
   {
-    Question3:
+    Question13:
       "In 1984, Georgetown led by Patrick Ewing, won their first National Championship. Which school did they defeat 84-75 in the championship Game?",
-    Answer3: "Houston - Phi Slamma Jamma",
+    Answer13: "Houston - Phi Slamma Jamma",
   },
   {
-    Question4:
+    Question14:
       "In the 1992 East regional final, Christian Laettner hit the game winning basket from the top of the key with one second left to lift DUKE to a 104-103 win. What team was their opponent?",
-    Answer4: "Kentucky Wildcats",
+    Answer14: "Kentucky Wildcats",
   },
   {
-    Question5: "Who was the loset against North Carolina in 1993?",
-    Answer5: "East Caroline University",
+    Question15: "Who was the loset against North Carolina in 1993?",
+    Answer15: "East Caroline University",
   },
   {
-    Question6:
+    Question16:
       "1985 was the first year the NCAA tournament had a grand total of 64 teams. Villanova defeated Georgetown to become the first national championship of the new format. Who was the loser?",
-    Answer6: "Marshall",
+    Answer16: "Marshall",
   },
   {
-    Question7:
+    Question17:
       "Kentucky was stunned by which all African American starting lineup team in the 1966 National Championship? Hint: a movie was made about this team. ",
-    Answer7: "Texas Western University",
+    Answer17: "Texas Western University",
   },
   {
-    Question8:
+    Question18:
       "Syracuse was the National Champions in 2003, Who was the most outstanding polayer?",
-    Answer8: "Carmelo Anthony",
+    Answer18: "Carmelo Anthony",
   },
   {
-    Question9:
+    Question19:
       "The very first Final Four, played in 1939, was held in which midwestern city?",
-    Answer9: "Evanston, Illinois",
+    Answer19: "Evanston, Illinois",
   },
   {
-    Question10: "In 1993, Southern Univesity beat what #4 team?",
-    Answer10: "Georgia Teach",
+    Question20: "In 1993, Southern Univesity beat what #4 team?",
+    Answer20: "Georgia Teach",
   },
 ];
 
-for (let j = 0; j < hardGame.length; j++) {
-  console.log(hardGame[j]);
+for (let j = 0; j < triviaGame.length; j++) {
+  console.log(triviaGame[j]);
 }
