@@ -102,22 +102,24 @@ h2 {
   align-content: center;
   font-size: x-large;
   font-weight: bold;
-  padding: 10%;
+  padding: 15%;
 }
 
 #answerDiv {
   width: 900px;
-  align-content: left;
-  font-size: larger;
-  padding: 2%;
+  /* align-content: center;
+  display: block; */
+  /* font-size: larger;
+  padding: 2%; */
 }
 
 #answerBtn {
   text-align: center;
-  font-size: medium;
-  width: 300px;
+  font-size: smaller;
+  width: 250px;
   padding: 2%;
-  float: right;
+  float: left;
+  margin: 10%;
   
 }
 
@@ -126,30 +128,30 @@ h2 {
   margin: 0 auto;
   /* float: left; */
  text-align: center; 
-  font-size: medium;
+  font-size: smaller;
   width: 200px;
-  padding: 2%;
+  padding: 4%;
 }
 #secondAnswer {
   margin: 0 auto;
   text-align: center;
-  font-size: medium;
+  font-size: smaller;
   width: 200px;
-  padding: 2%;
+  padding: 4%;
 }
 
 #thirdAnswer {
   margin: 0 auto;
   text-align: center;
-  font-size: medium;
+  font-size: smaller;
   width: 200px;
-  padding: 2%;
+  padding: 4%;
 }
 
 #forthAnswer {
   margin: 0 auto;
   text-align: center; 
-  font-size: medium;
+  font-size: smaller;
   width: 200px;
-  padding: 2%;
+  padding: 4%;
 }

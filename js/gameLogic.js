@@ -45,6 +45,8 @@ for(i = 0; i < triviaGame.length; i++){
  // console.log(triviaGame[i].Correct);
 //}
 
+let nQuestion = document.querySelector("#nextBtn");
+nQuestion.addEventListener("click", function() {
 for(p = 0; p < triviaGame.length; p++){
   let randonIndex = Math.floor(Math.random() * triviaGame.length);
 
@@ -73,14 +75,14 @@ for(p = 0; p < triviaGame.length; p++){
   //console.log(pop4);
   //console.log('-------')
 }
-
+})
 // for (x = 0; x < triviaGame.length; x++){
 //   let randonIndex = Math.floor(Math.random() * triviaGame.length);
 //   questionDiv.innerHTML = triviaGame[randonIndex].Question;
 // }
 
-let randonIndex = Math.floor(Math.random() * triviaGame.length);
-let answerElements = document.querySelector('.inputAnswer');
+//let randonIndex = Math.floor(Math.random() * triviaGame.length);
+//let answerElements = document.querySelector('.inputAnswer');
 
 //********************************************************* */
 //*************IMPORTANT LLOOP THROUGH WEEL..   */
@@ -97,8 +99,10 @@ let answerElements = document.querySelector('.inputAnswer');
 //EXAMPLE BUTTON BELOW IN INDEX.HTML
 
 let answerBtn = document.createElement("button");
+let answerGameBtn = document.createTextNode("SCORE: ");
 answerBtn.id = "answerBtn";
 answerBtn.setAttribute("align", "center");
+answerBtn.appendChild(answerGameBtn);
 //answerBtn.appendChild(easyGameBtn);
 //document.body.appendChild(answerBtn).innerHTML = Answer[i];
 document.body.appendChild(answerBtn);
