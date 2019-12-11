@@ -106,7 +106,50 @@ h2 {
 }
 
 #answerDiv {
- 
-  align-content: center;
+  width: 900px;
+  align-content: left;
   font-size: larger;
+  padding: 2%;
+}
+
+#answerBtn {
+  text-align: center;
+  font-size: medium;
+  width: 300px;
+  padding: 2%;
+  float: right;
+  
+}
+
+/* Answer buttons */
+#firstAnswer {
+  margin: 0 auto;
+  /* float: left; */
+ text-align: center; 
+  font-size: medium;
+  width: 200px;
+  padding: 2%;
+}
+#secondAnswer {
+  margin: 0 auto;
+  text-align: center;
+  font-size: medium;
+  width: 200px;
+  padding: 2%;
+}
+
+#thirdAnswer {
+  margin: 0 auto;
+  text-align: center;
+  font-size: medium;
+  width: 200px;
+  padding: 2%;
+}
+
+#forthAnswer {
+  margin: 0 auto;
+  text-align: center; 
+  font-size: medium;
+  width: 200px;
+  padding: 2%;
 }
