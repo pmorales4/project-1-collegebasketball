@@ -29,22 +29,23 @@ document.body.appendChild(easyBtn);
 
 let btn1 = document.querySelector("#btn1");
 console.log(btn1);
-let btn2 = document.querySelector("#btn2");
-console.log(btn2);
+// let btn2 = document.querySelector("#btn2");
+// console.log(btn2);
 
 btn1.addEventListener("click", function() {
   //console.log("I clicked the easy button");
 
   window.location.href =
-    "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
-  //navigator(new URL('/game.html/'));
+    // "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
+  "https://pmorales4.github.io/project-1-collegebasketball/game.html";
+    //navigator(new URL('/game.html/'));
 });
 
-btn2.addEventListener("click", function() {
-  //console.log("I clicked the hard button");
-  window.location.href =
-    "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
-});
+// btn2.addEventListener("click", function() {
+//   //console.log("I clicked the hard button");
+//   window.location.href =
+//     "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
+// });
 
 //Variables Needed for Project on Game.html page
 
