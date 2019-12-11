@@ -29,7 +29,7 @@ let triviaGame = [
     Question:
       "Who received the First Naismith College Coach of the Year Award?",
     Answer: [
-      'Coach Bobby Knight',
+      "Coach Bobby Knight",
       "Coach Tom Moore",
       "Coach Jim Boeheim",
       "Coach Jim Calhoun",
@@ -160,10 +160,18 @@ console.log(c);
 //let x = JSON.stringify(document.getElementById("gameDiv").innerHTML = randomGame);
 //console.log(x);
 
-let randonIndex = Math.floor(Math.random() * triviaGame.length);
-questionDiv.innerHTML = triviaGame[randonIndex].Question;
-answerDiv.innerHTML = triviaGame[randonIndex].Answer;
+let nQuestion = document.querySelector("#nextBtn");
 
+nQuestion.addEventListener("click", function() {
+  let randonIndex = Math.floor(Math.random() * triviaGame.length);
+  questionDiv.innerHTML = triviaGame[randonIndex].Question;
+  answerDiv.innerHTML = triviaGame[randonIndex].Answer;
+});
+
+//3 lines below work well. ***********************************************
+// let randonIndex = Math.floor(Math.random() * triviaGame.length);
+// questionDiv.innerHTML = triviaGame[randonIndex].Question;
+// answerDiv.innerHTML = triviaGame[randonIndex].Answer;
 
 // for (let i = 0; i < triviaGame.length; i++) {
 //     triviaGame[i].innerHTML = triviaGame[randomIndex].Answer;
