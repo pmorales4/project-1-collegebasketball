@@ -53,3 +53,25 @@ i {
 h2 {
   text-align: center;
 }
+
+/* gameHtml page  */
+#resetBtn {
+  float: left;
+  text-align: center;
+  font-size: medium;
+  width: 20%;
+  padding: 2%;
+  position: absolute;
+  bottom: 10px;
+  border: 1px solid red;
+}
+
+#exitBtn {
+ float: right;
+  text-align: center;
+  font-size: medium;
+  width: 20%;
+  padding: 2%;
+  bottom: 10px;
+  border: 1px solid red;
+}
