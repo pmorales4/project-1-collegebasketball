@@ -49,7 +49,7 @@ let triviaGame = [
     Correct: "Tar Heels, Michigan State, Florida Gators, Wisconsin",
     Answer: [
       "Tar Heels, Michigan State, Florida Gators, Wisconsin",
-      "Uconn, Michigan State, Kentucky, Maryland -",
+      "Uconn, Michigan State, Kentucky, Maryland",
       "Uconn, Maryland, UCLA, California -",
       "Michigan, Duke, Baylor, Eastern Ct State University -",
     ],
