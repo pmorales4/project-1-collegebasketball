@@ -8,19 +8,6 @@ forthAnswer.innerHTML = triviaGame[0].Answer[3];
 
 
 
-//function()
-// loop over Answer to then
-// document.createElement('button).innerHTML = `${answer[i]}`
-
-// for (i = 0; i < 20; i++) {
-//   //THIS WORKS ***********************************
-//   // let randonIndex = Math.floor(Math.random() * triviaGame.length);
-//   let prtAnswer = triviaGame[i].Answer[0];
-//   if (prtAnswer == triviaGame[i].Correct) {
-//     //console.log('they match');
-//   }
-// }
-//console.log('------------------------------')
 
 
 //function()
@@ -61,43 +48,54 @@ console.log(answerBtn);
 firstAnswer.addEventListener("click", function() {
   let randonIndex = Math.floor(Math.random() * triviaGame.length);
   //questionDiv.innerHTML = triviaGame[0].Question;
-  if (triviaGame[randonIndex].Answer[0] == triviaGame[randonIndex].Correct) {
+  for (i = 0; i < triviaGame.length; i++) {
+  if (triviaGame[randonIndex].Answer[0] == triviaGame[i].Correct) {
     console.log("you got the right answer on index 0");
+    
     finalScore = finalScore + 1;
+    if (finalScore == 20){
     console.log(finalScore);
+    alert('YOU WON GAME *************');
+  }
     answerBtn.innerHTML = finalScore;
   }
+}
 });
 
 secondAnswer.addEventListener("click", function() {
   let randonIndex = Math.floor(Math.random() * triviaGame.length);
-  if (triviaGame[randonIndex].Answer[1] == triviaGame[randonIndex].Correct) {
+  for (i = 0; i < triviaGame.length; i++) {
+  if (triviaGame[randonIndex].Answer[1] == triviaGame[i].Correct) {
     console.log("you got the right answer on index 1 ");
     finalScore = finalScore + 1;
     console.log(finalScore);
     answerBtn.innerHTML = finalScore;
   }
+}
 });
 
 thirdAnswer.addEventListener("click", function() {
   let randonIndex = Math.floor(Math.random() * triviaGame.length);
-  if (triviaGame[randonIndex].Answer[2] == triviaGame[randonIndex].Correct) {
+  for (i = 0; i < triviaGame.length; i++) {
+  if (triviaGame[randonIndex].Answer[2] == triviaGame[i].Correct) {
     console.log("you got the right answer on index 2");
     finalScore = finalScore + 1;
     console.log(finalScore);
     answerBtn.innerHTML = finalScore;
   }
+}
 });
 
 forthAnswer.addEventListener("click", function() {
   let randonIndex = Math.floor(Math.random() * triviaGame.length);
-
-  if (triviaGame[randonIndex].Answer[3] == triviaGame[randonIndex].Correct) {
+  for (i = 0; i < triviaGame.length; i++) {
+  if (triviaGame[randonIndex].Answer[3] == triviaGame[i].Correct) {
     console.log("you got the right answer on index 3");
     finalScore = finalScore + 1;
     console.log(finalScore);
     answerBtn.innerHTML = finalScore;
   }
+}
 });
 
 

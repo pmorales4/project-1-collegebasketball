@@ -35,11 +35,8 @@ function closeM2() {
 //THIS IS THE BIG TEN CONFERENCE
 
 const firstModal3 = document.querySelector("#firstModal3");
-
 let modalBtn3 = document.querySelector("#modalBtn3");
-
 const closeFirstModal3 = document.querySelector(".closeFirstModal3");
-
 modalBtn3.addEventListener("click", function() {
   firstModal3.style.display = "block";
 });

@@ -118,7 +118,7 @@ h2 {
 #answerBtn {
   /* text-align: bottom; */
   font-size: large;
-  width: 100px;
+  width: 120px;
   padding: 1%;
   float: 0 auto;
   margin: 5%;
@@ -136,6 +136,9 @@ h2 {
   font-size: smaller;
   width: 200px;
   padding: 4%;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
 }
 
 #secondAnswer {
@@ -144,6 +147,9 @@ h2 {
   font-size: smaller;
   width: 200px;
   padding: 4%;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
 }
 
 #thirdAnswer {
@@ -152,6 +158,9 @@ h2 {
   font-size: smaller;
   width: 200px;
   padding: 4%;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
 }
 
 #forthAnswer {
@@ -160,4 +169,7 @@ h2 {
   font-size: smaller;
   width: 200px;
   padding: 4%;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
 }
