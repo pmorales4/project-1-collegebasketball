@@ -40,6 +40,7 @@ h1 {
   padding: 20px;
   font-size: x-large;
 }
+
 /* horizontal line on landing page */
 hr {
   border-top: 3px solid black;
@@ -59,6 +60,7 @@ h2 {
 #gameControls {
   width: 900px;
 }
+
 #resetBtn {
   /* float: left; */
   text-align: center;
@@ -72,7 +74,7 @@ h2 {
 }
 
 #exitBtn {
- /* float: right; */
+  /* float: right; */
   text-align: center;
   font-size: medium;
   width: 300px;
@@ -98,11 +100,11 @@ h2 {
 
 
 #questionDiv {
-  
+
   align-content: center;
   font-size: x-large;
   font-weight: bold;
-  padding: 15%;
+  padding: 8%;
 }
 
 #answerDiv {
@@ -114,24 +116,28 @@ h2 {
 }
 
 #answerBtn {
-  text-align: center;
-  font-size: smaller;
-  width: 250px;
-  padding: 2%;
-  float: left;
-  margin: 10%;
-  
+  /* text-align: bottom; */
+  font-size: large;
+  width: 100px;
+  padding: 1%;
+  float: 0 auto;
+  margin: 5%;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
+
 }
 
 /* Answer buttons */
 #firstAnswer {
   margin: 0 auto;
   /* float: left; */
- text-align: center; 
+  text-align: center;
   font-size: smaller;
   width: 200px;
   padding: 4%;
 }
+
 #secondAnswer {
   margin: 0 auto;
   text-align: center;
@@ -150,7 +156,7 @@ h2 {
 
 #forthAnswer {
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
   font-size: smaller;
   width: 200px;
   padding: 4%;
