@@ -12,6 +12,7 @@ forthAnswer.innerHTML = triviaGame[0].Answer[3];
 // THIS EVENT LISTENER POPULATES THE QUESTION AND ANSWER TO SCREEN
 // ***************************************************************
 let finalScore = 0;
+
 let maxScore = 20;
 
 let nQuestion = document.querySelector("#nextBtn");
@@ -53,105 +54,98 @@ function nextQuestion() {
 let answerBtn = document.querySelector("span");
 console.log(answerBtn);
 
-// firstAnswer.addEventListener("click", function() {
-//   let randonIndex = Math.floor(Math.random() * triviaGame.length);
-//   //questionDiv.innerHTML = triviaGame[0].Question;
-//   for (i = 0; i < triviaGame.length; i++) {
-//   if (triviaGame[randonIndex].Answer[0] == triviaGame[i].Correct) {
-//     console.log("right answer");
-
-//     finalScore = finalScore + 1;
-//     if (finalScore == 20){
-//     console.log(finalScore);
-//     alert('YOU WON GAME *************');
-//   }
-//     answerBtn.innerHTML = finalScore;
-//   }
-// }
-// });
-
-secondAnswer.addEventListener("click", function() {
-  let randonIndex = Math.floor(Math.random() * triviaGame.length);
-  for (i = 0; i < triviaGame.length; i++) {
-    if (triviaGame[i].Answer[1] == triviaGame[i].Correct) {
-      console.log("right answer");
-      finalScore = finalScore + 1;
-      nextQuestion();
-    } else if (triviaGame[i].Answer[1] !== triviaGame[i].Correct) {
-      console.log("wrong answer");
-      nextQuestion();
-    }
-
-    // finalScore = finalScore + 1;
-    if (finalScore == maxScore) {
-      console.log(finalScore);
-      answerBtn.innerHTML = finalScore;
-    }
-  }
-});
-
-thirdAnswer.addEventListener("click", function() {
-  let randonIndex = Math.floor(Math.random() * triviaGame.length);
-  for (i = 0; i < triviaGame.length; i++) {
-    if (triviaGame[i].Answer[2] == triviaGame[i].Correct) {
-      console.log("right answer");
-      finalScore = finalScore + 1;
-      nextQuestion();
-    } else if (triviaGame[i].Answer[2] !== triviaGame[i].Correct) {
-      console.log("wrong answer");
-      nextQuestion();
-    }
-
-    if (finalScore == maxScore) {
-      //finalScore = finalScore + 1;
-      console.log(finalScore);
-      answerBtn.innerHTML = finalScore;
-    }
-  }
-});
-
-forthAnswer.addEventListener("click", function() {
-  let randonIndex = Math.floor(Math.random() * triviaGame.length);
-  for (i = 0; i < triviaGame.length; i++) {
-    if (triviaGame[i].Answer[3] == triviaGame[i].Correct) {
-      console.log("right answer");
-      finalScore = finalScore + 1;
-      nextQuestion();
-    } else if (triviaGame[i].Answer[3] !== triviaGame[i].Correct) {
-      console.log("wrong answer");
-      nextQuestion();
-    }
-
-    if (finalScore == maxScore) {
-      console.log(finalScore);
-      answerBtn.innerHTML = finalScore;
-    }
-  }
-});
-
 firstAnswer.addEventListener("click", function() {
   let randonIndex = Math.floor(Math.random() * triviaGame.length);
   //questionDiv.innerHTML = triviaGame[0].Question;
   for (i = 0; i < triviaGame.length; i++) {
-    console.log(triviaGame[i]);
-    if (triviaGame[i].Answer[0] == triviaGame[i].Correct) {
-      console.log("right answer");
-      finalScore = finalScore + 1;
-      nextQuestion();
-    } else if (triviaGame[i].Answer[0] !== triviaGame[i].Correct) {
-      console.log("wrong answer");
-      nextQuestion();
-    }
+   // console.log(triviaGame[i]);
+   let pp = triviaGame[randonIndex].Answer[0] == triviaGame[i].Correct; 
+console.log(pp);
+if (pp){
+  if(pp = true){
+    finalScore = finalScore + 1;
+    nextQuestion();
+  } else if (pp = false) {
+    nextQuestion();
+  }
+  
+//   console.log("right answer");
+//       finalScore = finalScore + 1;
+//       nextQuestion();
+// } else if 
+//   (triviaGame[randonIndex].Answer[0] !== triviaGame[randonIndex].Correct) {
+//       console.log("wrong answer");
+//       nextQuestion();
+// }
 
-    //finalScore = finalScore + 1;
-    if (finalScore == maxScore) {
-      console.log(finalScore);
+    // //finalScore = finalScore + 1;
+    // if (finalScore == maxScore) {
+    //   console.log(finalScore);
 
-      //}
+    //   //}
       answerBtn.innerHTML = finalScore;
     }
   }
 });
+
+// secondAnswer.addEventListener("click", function() {
+//   let randonIndex = Math.floor(Math.random() * triviaGame.length);
+//   for (i = 0; i < triviaGame.length; i++) {
+//     if (triviaGame[randonIndex].Answer[1] == triviaGame[i].Correct) {
+//       console.log("right answer");
+//       finalScore = finalScore + 1;
+//       nextQuestion();
+//     } else if (triviaGame[randonIndex].Answer[1] !== triviaGame[i].Correct) {
+//       console.log("wrong answer");
+//       nextQuestion();
+//     }
+
+//     // finalScore = finalScore + 1;
+//     if (finalScore == maxScore) {
+//       console.log(finalScore);
+//       answerBtn.innerHTML = finalScore;
+//     }
+//   }
+// });
+
+// thirdAnswer.addEventListener("click", function() {
+//   let randonIndex = Math.floor(Math.random() * triviaGame.length);
+//   for (i = 0; i < triviaGame.length; i++) {
+//     if (triviaGame[randonIndex].Answer[2] == triviaGame[i].Correct) {
+//       console.log("right answer");
+//       finalScore = finalScore + 1;
+//       nextQuestion();
+//     } else if (triviaGame[randonIndex].Answer[2] !== triviaGame[i].Correct) {
+//       console.log("wrong answer");
+//       nextQuestion();
+//     }
+
+//     if (finalScore == maxScore) {
+//       //finalScore = finalScore + 1;
+//       console.log(finalScore);
+//       answerBtn.innerHTML = finalScore;
+//     }
+//   }
+// });
+
+// forthAnswer.addEventListener("click", function() {
+//   let randonIndex = Math.floor(Math.random() * triviaGame.length);
+//   for (i = 0; i < triviaGame.length; i++) {
+//     if (triviaGame[randonIndex].Answer[3] == triviaGame[i].Correct) {
+//       console.log("right answer");
+//       finalScore = finalScore + 1;
+//       nextQuestion();
+//     } else if (triviaGame[randonIndex].Answer[3] !== triviaGame[i].Correct) {
+//       console.log("wrong answer");
+//       nextQuestion();
+//     }
+
+//     if (finalScore == maxScore) {
+//       console.log(finalScore);
+//       answerBtn.innerHTML = finalScore;
+//     }
+//   }
+// });
 
 //RESET BUTTON WORKS, REFRESHES THE WHOLE PAGE.
 let resetBtn = document.querySelector("#resetBtn");
@@ -160,19 +154,11 @@ resetBtn.addEventListener("click", function() {
   location.reload();
 });
 
+//exit button not working.
 let exitBtn = document.querySelector("#exitBtn");
 exitBtn.addEventListener("click", function() {
-  exit();
+  console.log("pressed exit, does not work");
 });
-
-// checkingLogic()
-// userclick = chosenAnswer
-// chosenAnswer == obj.correct => score()
-// if user is wrong => nextQuestion() don't add to score
-
-// timer()
-//setTimeout() REASEARCH THIS
-// .innerHTML = i
 
 // score()
 // 0 and then +1 everytime the user is right
