@@ -34,11 +34,8 @@ console.log(btn1);
 
 btn1.addEventListener("click", function() {
   //console.log("I clicked the easy button");
-
-  window.location.href =
-    "file:///Users/pmorales/SEI/projects/project-1-collegebasketball/project-1-collegebasketball/game.html";
-  // "https://pmorales4.github.io/project-1-collegebasketball/game.html";
-  //navigator(new URL('/game.html/'));
+  document.location.href =
+    "https://pmorales4.github.io/project-1-collegebasketball/game.html";
 });
 
 // btn2.addEventListener("click", function() {

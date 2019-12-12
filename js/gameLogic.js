@@ -9,6 +9,7 @@ forthAnswer.innerHTML = triviaGame[0].Answer[3];
 // ***************************************************************
 let finalScore = 0;
 let maxScore = 20;
+let falseScore = 0
 let randomIndex = 0;
 let nQuestion = document.querySelector("#nextBtn");
 let resetBtn = document.querySelector("#resetBtn");
@@ -55,13 +56,16 @@ resetBtn.addEventListener("click", function() {
 //exit button not working.
 
 exitBtn.addEventListener("click", function() {
-  console.log("pressed exit, does not work");
+  
+  document.location.href="https://pmorales4.github.io/project-1-collegebasketball/";
 });
 
 //******************************************* */
 
 let answerBtn = document.querySelector("span");
+
 console.log(answerBtn);
+
 
 //FIRST EVENT LISTENER BUTTON - CODE BELOW.
 //RANDOMLY SELECTS QUESTION AND FINDS ANSWERS
@@ -82,6 +86,7 @@ firstAnswer.addEventListener("click", function() {
           reachTwenty();
         }
       } else (pp === false) 
+      
         nextQuestion();
       
 
@@ -148,7 +153,6 @@ forthAnswer.addEventListener("click", function() {
 });
 
 
-
-
-
+let countDownClock = document.querySelector('#countDownClock');
+console.log(countDownClock);
 
