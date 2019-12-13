@@ -65,8 +65,20 @@ Testing the first button on landing page to make sure it linked to my game page.
 ![picture](images/readMe/btnTestLink.png)
 ![picture](images/readMe/btnDynBuild.png)
 
-The test of my random question as well. I provide screenshots of testing the next question chosen randomly, each answer (first, second, third, forth). Also the console.log for you.
+The test of my random question as well. I provide screenshots of testing the next question chosen randomly, each answer (first, second, third, forth). Also the console.log for you. 16 is the random question pulled out of the array of object.
 
 ![picture](images/readMe/randomArry.png)
 ![picture](images/readMe/randomTest.png)
 ![picture](images/readMe/randomAsnser.png)
+
+# How to Use
+
+click enter game button and go through it.  
+
+# Contribute Guidelines
+
+clone project to local machine and use. Students that are learning and clone and read code and figure out how it was put together or improve for themselves. 
+
+# Credits
+
+I learned modals reading GA specification, researching google, as well as youtube video link: https://www.youtube.com/watch?v=6ophW7Ask_0
