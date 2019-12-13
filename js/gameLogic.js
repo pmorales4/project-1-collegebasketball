@@ -88,17 +88,11 @@ firstAnswer.addEventListener("click", function() {
       } else (pp === false) 
       
         nextQuestion();
-      
-
-    
-    
-  
  
 });
 
 secondAnswer.addEventListener("click", function() {
   
- 
     let pp = triviaGame[randomIndex].Answer[1] == triviaGame[randomIndex].Correct;
     console.log(pp);
   
@@ -111,10 +105,7 @@ secondAnswer.addEventListener("click", function() {
         }
       } else pp === false;
       nextQuestion();
-    
-     
-    
- 
+
 });
 
 thirdAnswer.addEventListener("click", function() {
@@ -153,6 +144,5 @@ forthAnswer.addEventListener("click", function() {
 });
 
 
-let countDownClock = document.querySelector('#countDownClock');
-console.log(countDownClock);
+
 
