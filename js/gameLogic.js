@@ -27,17 +27,11 @@ let exitBtn = document.querySelector("#exitBtn");
 nQuestion.addEventListener("click", function() {
   //GET THE RANDOM ITEM FROM ARRAY OF OBJECTS
   randomIndex = Math.floor(Math.random() * triviaGame.length);
-  console.log(randomIndex);
   questionDiv.innerHTML = triviaGame[randomIndex].Question;
-  console.log(questionDiv);
   firstAnswer.innerHTML = triviaGame[randomIndex].Answer[0];
-  console.log(firstAnswer);
   secondAnswer.innerHTML = triviaGame[randomIndex].Answer[1];
-  console.log(secondAnswer);
   thirdAnswer.innerHTML = triviaGame[randomIndex].Answer[2];
-  console.log(thirdAnswer);
   forthAnswer.innerHTML = triviaGame[randomIndex].Answer[3];
-  console.log(forthAnswer);
 });
 
 //FUNCTION MAKE A NEW SCREEN OF QUESTION AND ANSWERS
