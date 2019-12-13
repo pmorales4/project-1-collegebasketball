@@ -57,10 +57,16 @@ Modal code below:
 ![picture](images/readMe/landingPage.png)
 ![picture](images/readMe/gamePage.png)
 
-# Testing Code: 
+# Testing Code:
 
 Testing the first button on landing page to make sure it linked to my game page.  
 ![picture](images/readMe/btnTest.png)
 ![picture](images/readMe/btnTestDynamic.png)
 ![picture](images/readMe/btnTestLink.png)
 ![picture](images/readMe/btnDynBuild.png)
+
+The test of my random question as well. I provide screenshots of testing the next question chosen randomly, each answer (first, second, third, forth). Also the console.log for you.
+
+![picture](images/readMe/randomArry.png)
+![picture](images/readMe/randomTest.png)
+![picture](images/readMe/randomAsnser.png)
