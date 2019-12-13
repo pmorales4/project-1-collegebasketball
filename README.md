@@ -4,13 +4,23 @@ The College Basketball trivia game project is a simple click through of answers 
 
 You have to obtain ten positive answers and you win.
 
-# Motivation
+# Motivation:
 
 I was motivated to do this project because I wanted to try something I never did before. As my first project I think I did a pretty good job on the front end and back end. I will continue to improve on the project throughout it being posted on github.
 
-# Brief Example
+# Brief Example Score Explanation:
 
-This is just two examples of the positive and negative numbers on your score depending on what I click for the answers.
+This is just two examples of the positive and negative numbers on your score depending on what I click for the answers. If your score shows negative, such at the picture (-7), you will have to click 7 times then another 10 positive to will.
 
 ![picture](images/readMe/posNumber.png)
 ![picture](images/readMe/negNumber.png)
+
+# Code style
+
+No coding styles used. However, here is a snip of my array of objects used for question and answer.
+
+![picture](images/readMe/arrayShot.png)
+
+Where I need to improve my code is within this function to fix the output of only two question to use instead of constantly going through the questions repeatedly.
+
+![picture](images/readMe/funct.png)
