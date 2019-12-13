@@ -40,4 +40,8 @@ MacBook Pro / Catalina 10.15.1
 Landing page have ten (10) modals on it with all teams from each division. Once click on button it will pop up.
 
 ![picture](images/readMe/modalBtn.png)
+
+Modal buttons above.
+
 ![picture](images/readMe/modalPopUP.png)
+Modal pop up above.
