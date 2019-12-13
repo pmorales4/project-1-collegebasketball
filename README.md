@@ -6,7 +6,7 @@ After receiving 10 correct answers the player wins and the games end.
 
 # Motivation:
 
-My love of sports, specifically basketball, motivated me to do this project.  As my first project I think I did a pretty good job blending javascript with HTML and CSS.  I will continue to improve on the functionality and the UI on my project. I want to add a difficulty level to the question which would result in a higher score (for example a 3-pointer question). 
+My love of sports, specifically basketball, motivated me to do this project. As my first project I think I did a pretty good job blending javascript with HTML and CSS. I will continue to improve on the functionality and the UI on my project. I want to add a difficulty level to the question which would result in a higher score (for example a 3-pointer question).
 
 # Brief Example Score Explanation:
 
@@ -21,7 +21,7 @@ No coding styles used. However, here is a snip of the array of objects used for 
 
 ![picture](images/readMe/arrayShot.png)
 
-Currently, the game ends when the player gets 10 points. I need to improve this part of the code function and end the game after the user completes ten questions ( no consideration whether the question is incorrect or correct). 
+Currently, the game ends when the player gets 10 points. I need to improve this part of the code function and end the game after the user completes ten questions ( no consideration whether the question is incorrect or correct).
 
 ![picture](images/readMe/funct.png)
 
@@ -73,11 +73,11 @@ The test of my random question as well. I provide screenshots of testing the nex
 
 # How to Use
 
-click enter game button and go through it.  
+click enter game button and go through it.
 
 # Contribute Guidelines
 
-clone project to local machine and use. Students that are learning and clone and read code and figure out how it was put together or improve for themselves. 
+clone project to local machine and use. Students that are learning and clone and read code and figure out how it was put together or improve for themselves.
 
 # Credits
 
@@ -87,7 +87,7 @@ https://www.youtube.com/watch?v=6ophW7Ask_0
 https://www.w3schools.com/howto/howto_css_modals.asp
 https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
 
-Readme File Credits: 
+Readme File Credits:
 https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
 
-GA documentation as well. 
+GA documentation as well.
