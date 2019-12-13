@@ -6,11 +6,11 @@ You have to obtain ten positive answers and you win.
 
 # Motivation
 
-I was motivated to do this project because I wanted to try something I never did before. As my first project I think and did a pretty good job on the front end and back end. I will continue to improve on the project throughout it being posted on github.
+I was motivated to do this project because I wanted to try something I never did before. As my first project I think I did a pretty good job on the front end and back end. I will continue to improve on the project throughout it being posted on github.
 
 # Brief Example
 
 This is just two examples of the positive and negative numbers on your score depending on what I click for the answers.
 
-![picture](readMe/posNumber.png)
-![picture](readMe/negNumber.png)
+![picture](images/readMe/posNumber.png)
+![picture](images/readMe/negNumber.png)
