@@ -21,7 +21,7 @@ No coding styles used. However, here is a snip of my array of objects used for q
 
 ![picture](images/readMe/arrayShot.png)
 
-Where I need to improve my code is within this function to fix the output of only two question to use instead of constantly going through the questions repeatedly.
+Where I need to improve my code is within this function to fix the output of only ten question to use instead of constantly going through the questions repeatedly.
 
 ![picture](images/readMe/funct.png)
 
@@ -40,4 +40,4 @@ MacBook Pro / Catalina 10.15.1
 Landing page have ten (10) modals on it with all teams from each division. Once click on button it will pop up.
 
 ![picture](images/readMe/modalBtn.png)
-![picture](images/readMe/modalPopUp.png)
+![picture](images/readMe/modalPopUP.png)
