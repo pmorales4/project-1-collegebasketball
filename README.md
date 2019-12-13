@@ -81,4 +81,13 @@ clone project to local machine and use. Students that are learning and clone and
 
 # Credits
 
-I learned modals reading GA specification, researching google, as well as youtube video link: https://www.youtube.com/watch?v=6ophW7Ask_0
+I learned modals reading GA specification, researching google, as well as youtube.
+
+https://www.youtube.com/watch?v=6ophW7Ask_0
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
+
+Readme File Credits: 
+https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+
+GA documentation as well. 
