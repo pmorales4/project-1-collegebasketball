@@ -47,7 +47,9 @@ function nextQuestion() {
 // SIMPLE ALERT ONCE YOUR REACH 10 POSITIVE NUMBERS.
 // NEED TO ADD MORE FUNCTIONALITY INTO THIS PAGE.
 function reachTen() {
-  alert("YOU WON THE GAME!!!!!!!!!!!!!");
+  alert(
+    "You score 10 positive numbers in trivia game.  YOU WON THE GAME!!!!!!!!!!!!!"
+  );
 }
 
 //RESET BUTTON WORKS, REFRESHES THE WHOLE PAGE.
