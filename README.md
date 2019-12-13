@@ -24,3 +24,20 @@ No coding styles used. However, here is a snip of my array of objects used for q
 Where I need to improve my code is within this function to fix the output of only two question to use instead of constantly going through the questions repeatedly.
 
 ![picture](images/readMe/funct.png)
+
+# List of Technologies Used:
+
+Visual Studio Code - IDE
+Javascript (vanilla)
+HTML
+CSS
+MacBook Pro / Catalina 10.15.1
+
+\***\* Still need to finish a couple features on project \*\***
+
+# Features of Project
+
+Landing page have ten (10) modals on it with all teams from each division. Once click on button it will pop up.
+
+![picture](images/readMe/modalBtn.png)
+![picture](images/readMe/modalPopUp.png)
