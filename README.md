@@ -43,5 +43,16 @@ Landing page have ten (10) modals on it with all teams from each division. Once 
 
 Modal buttons above.
 
+Modal pop up below.
 ![picture](images/readMe/modalPopUP.png)
-Modal pop up above.
+
+Code files below:
+![picture](images/readMe/files.png)
+
+Modal code below:
+![picture](images/readMe/modalCode.png)
+
+# Screenshots of project
+
+![picture](images/readMe/landingPage.png)
+![picture](images/readMe/gamePage.png)
