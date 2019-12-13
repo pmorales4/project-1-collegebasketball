@@ -56,3 +56,11 @@ Modal code below:
 
 ![picture](images/readMe/landingPage.png)
 ![picture](images/readMe/gamePage.png)
+
+# Testing Code: 
+
+Testing the first button on landing page to make sure it linked to my game page.  
+![picture](images/readMe/btnTest.png)
+![picture](images/readMe/btnTestDynamic.png)
+![picture](images/readMe/btnTestLink.png)
+![picture](images/readMe/btnDynBuild.png)
