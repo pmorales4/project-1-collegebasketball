@@ -1,27 +1,27 @@
 # Project 1 College Basketball Trivia Game
 
-The College Basketball trivia game project is a simple click through of answers and questions. You will be given ten question with a choice or four answers to choose from for each question. The scoring is done in the following format; Click a positive number your socre goes to a position number. If you click a negative answers it either decreases or is a negative number.
+The College Basketball trivia game project is a simple click through of random questions and answers. You will be given ten questions and four answers to choose from for each question. The scoring is done in the following format; click the correct answer your score goes up in increments of one. If you click a incorrect answers it either decreases your score or the score goes negative number.
 
-You have to obtain ten positive answers and you win.
+After receiving 10 correct answers the player wins and the games end.
 
 # Motivation:
 
-I was motivated to do this project because I wanted to try something I never did before. As my first project I think I did a pretty good job on the front end and back end. I will continue to improve on the project throughout it being posted on github.
+My love of sports, specifically basketball, motivated me to do this project.  As my first project I think I did a pretty good job blending javascript with HTML and CSS.  I will continue to improve on the functionality and the UI on my project. I want to add a difficulty level to the question which would result in a higher score (for example a 3-pointer question). 
 
 # Brief Example Score Explanation:
 
-This is just two examples of the positive and negative numbers on your score depending on what I click for the answers. If your score shows negative, such at the picture (-7), you will have to click 7 times then another 10 positive to will.
+This is just two examples of the positive and negative numbers on your score depending on what I click for the answers. If your score shows negative, such at the picture (-7), you will have to click 7 times then another 10 positive to win.
 
 ![picture](images/readMe/posNumber.png)
 ![picture](images/readMe/negNumber.png)
 
 # Code style
 
-No coding styles used. However, here is a snip of my array of objects used for question and answer.
+No coding styles used. However, here is a snip of the array of objects used for question and answer.
 
 ![picture](images/readMe/arrayShot.png)
 
-Where I need to improve my code is within this function to fix the output of only ten question to use instead of constantly going through the questions repeatedly.
+Currently, the game ends when the player gets 10 points. I need to improve this part of the code function and end the game after the user completes ten questions ( no consideration whether the question is incorrect or correct). 
 
 ![picture](images/readMe/funct.png)
 
