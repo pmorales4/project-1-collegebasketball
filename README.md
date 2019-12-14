@@ -1,8 +1,8 @@
 # Project 1 College Basketball Trivia Game
 
-The College Basketball trivia game project is a simple click through of random questions and answers. You will be given ten questions and four answers to choose from for each question. The scoring is done in the following format; click the correct answer your score goes up in increments of one. If you click a incorrect answers it either decreases your score or the score goes negative number.
+The College Basketball trivia game project is a simple click through of random questions and answers. You will be given ten questions and four answers to choose from for each question. The scoring is done in the following format; click the correct answer your score goes up in increments of one. If you click a incorrect answers it also increments by 1. There is a display for both correct and wrong answers.
 
-After receiving 10 correct answers the player wins and the games end.
+You are only allowed 10 questions the player wins/loses and the games end.
 
 # Motivation:
 
@@ -12,8 +12,7 @@ My love of sports, specifically basketball, motivated me to do this project. As 
 
 This is just two examples of the positive and negative numbers on your score depending on what I click for the answers. If your score shows negative, such at the picture (-7), you will have to click 7 times then another 10 positive to win.
 
-![picture](images/readMe/posNumber.png)
-![picture](images/readMe/negNumber.png)
+![picture](images/readMe/numbers.png)
 
 # Code style
 
@@ -21,7 +20,7 @@ No coding styles used. However, here is a snip of the array of objects used for 
 
 ![picture](images/readMe/arrayShot.png)
 
-Currently, the game ends when the player gets 10 points. I need to improve this part of the code function and end the game after the user completes ten questions ( no consideration whether the question is incorrect or correct).
+Currently, the game ends when the player gets 10 points or either side (correct and wrong) add up to ten. I need to improve this part of the code function and add a modal for pop up winner.
 
 ![picture](images/readMe/funct.png)
 
@@ -70,6 +69,10 @@ The test of my random question as well. I provide screenshots of testing the nex
 ![picture](images/readMe/randomArry.png)
 ![picture](images/readMe/randomTest.png)
 ![picture](images/readMe/randomAsnser.png)
+
+Created 1 event listener for the 4 buttons within the code and looped through them on clicks.
+
+![picture](images/readMe/eventListener.png)
 
 # How to Use
 

@@ -30,6 +30,7 @@ let scoreButtons = document.getElementsByTagName("span");
 let buttons = document.querySelectorAll(".inputAnswer");
 // console.log(scoreButtons[0]);
 // console.log(scoreButtons[1]);
+console.log(buttons);
 
 //GETS THE RANDOM QUESTION ONCE YOU CLICK ON THE 'NEXT QUESTION BTN'
 nQuestion.addEventListener("click", function() {
