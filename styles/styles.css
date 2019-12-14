@@ -99,7 +99,7 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
   align-content: center;
   font-size: x-large;
   font-weight: bold;
-  padding: 8%;
+  padding: 15%;
 }
 
 /* THIS IS WHERE THE ANSWERS FROM THE ARRY POPULATES DYNAMICALLY/RANDOMLY INTO PAGE */
@@ -114,14 +114,27 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
 #answerBtn {
   /* text-align: bottom; */
   font-size: large;
-  width: 140px;
-  padding: 2%;
-  float: 0 auto;
+  width: 300px;
+  padding: 1%;
+
   margin: 5%;
   border: 2px solid black;
   background-color: rgb(248, 4, 4);
   color: white;
+  display: inline-block;
 
+}
+
+#wrongAnswer {
+  font-size: large;
+  width: 140px;
+  padding: 2%;
+  
+  margin: 5%;
+  border: 2px solid black;
+  background-color: rgb(248, 4, 4);
+  color: white;
+  display: inline-block;
 }
 
 #countDown {
@@ -201,4 +214,9 @@ YOU LOOP AROUND IT, AND THE SAME FROM ALL THE NEXT THREE LABELED AS 'FIRST', 'SE
 #forthAnswer:focus {
   background-color: rgb(248, 4, 4);
   color: black;
+}
+
+
+#scoreButtons {
+  display: block;
 }

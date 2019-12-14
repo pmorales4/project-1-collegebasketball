@@ -16,12 +16,19 @@ forthAnswer.innerHTML = triviaGame[0].Answer[3];
 
 // LAST THREE ARE TO PULL FROM HTML INTO JAVASCRIPT TO MAKE CONNECTIONS.
 // ***************************************************************
-let finalScore = 0;
-let maxScore = 10;
+//let score = 0;
+let count = 0;
+let maxQuestions = 10;
+let falseScore = 0;
+let trueScore = 0;
+
 let randomIndex = 0;
 let nQuestion = document.querySelector("#nextBtn");
 let resetBtn = document.querySelector("#resetBtn");
 let exitBtn = document.querySelector("#exitBtn");
+
+//let scoreButtons = document.querySelector("#scoreButtons");
+//console.log(scoreButtons);
 
 let buttons = document.querySelectorAll(".inputAnswer");
 console.log(buttons);
@@ -39,20 +46,42 @@ nQuestion.addEventListener("click", function() {
 
 //FUNCTION MAKE A NEW SCREEN OF QUESTION AND ANSWERS
 function nextQuestion() {
+  //let count = 0;
+
   randomIndex = Math.floor(Math.random() * triviaGame.length);
   questionDiv.innerHTML = triviaGame[randomIndex].Question;
   firstAnswer.innerHTML = triviaGame[randomIndex].Answer[0];
   secondAnswer.innerHTML = triviaGame[randomIndex].Answer[1];
   thirdAnswer.innerHTML = triviaGame[randomIndex].Answer[2];
   forthAnswer.innerHTML = triviaGame[randomIndex].Answer[3];
+  //count++;
+  //} while (count < 10);
 }
 
 // SIMPLE ALERT ONCE YOUR REACH 10 POSITIVE NUMBERS.
 // NEED TO ADD MORE FUNCTIONALITY INTO THIS PAGE.
-function reachTen() {
-  alert(
-    "You score 10 positive numbers in trivia game.  YOU WON THE GAME!!!!!!!!!!!!!"
-  );
+function trueBoolean() {
+  trueScore = trueScore + 1;
+  scoreButtons[0].innerHTML = trueScore;
+  gameOver();
+}
+
+function falseBoolean() {
+  falseScore = falseScore + 1;
+  scoreButtons[1].innerHTML = falseScore;
+  gameOver();
+}
+
+function gameOver() {
+  count = trueScore + falseScore;
+  if (count == maxQuestions)
+    alert(
+      "Your final score is: " +
+        trueScore +
+        " correct answer and " +
+        falseScore +
+        " wrong answers!"
+    );
 }
 
 //RESET BUTTON WORKS, REFRESHES THE WHOLE PAGE.
@@ -70,8 +99,15 @@ exitBtn.addEventListener("click", function() {
 // YOU NEED TO SCORE MORE POSITVE UP TO 10 TO WIN GAME.
 // IF YOU KEEP HITTING NEGATIVE YOU NEED TO HIT MORE POSITIVE.
 // TALLIES IN THE 'YOUR SCORE ', BOX
-let answerBtn = document.querySelector("span");
-let wrongAnswer = document.querySelector("span");
+
+// let answerBtn = document.querySelector("span");
+// console.log(answerBtn);
+// let wrongAnswer = document.getElementsByTagName("span");
+// console.log(wrongAnswer);
+
+let scoreButtons = document.getElementsByTagName("span");
+console.log(scoreButtons[0]);
+console.log(scoreButtons[1]);
 
 for (let g = 0; g < buttons.length; g++) {
   buttons[g].addEventListener("click", function() {
@@ -79,16 +115,11 @@ for (let g = 0; g < buttons.length; g++) {
       triviaGame[randomIndex].Answer[g] == triviaGame[randomIndex].Correct;
     console.log(pp);
     if (pp === true) {
-      finalScore = finalScore + 1;
+      trueBoolean();
       nextQuestion();
-      answerBtn.innerHTML = finalScore;
-      if (finalScore == maxScore) {
-        reachTen();
-      }
     } else {
-      finalScore = finalScore - 1;
-      wrongAnswer.innerHTML = finalScore;
+      falseBoolean();
+      nextQuestion();
     }
-    nextQuestion();
   });
 }
