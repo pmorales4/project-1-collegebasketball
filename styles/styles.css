@@ -59,7 +59,6 @@ h4 {
 /* ALL THREE BUTTONS BELOW ARE ON THE SECOND PAGE OF PROJECT
 THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
 #resetBtn {
-  /* float: left; */
   text-align: center;
   font-size: medium;
   width: 300px;
@@ -71,7 +70,6 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
 }
 
 #exitBtn {
-  /* float: right; */
   text-align: center;
   font-size: medium;
   width: 300px;
@@ -105,10 +103,6 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
 /* THIS IS WHERE THE ANSWERS FROM THE ARRY POPULATES DYNAMICALLY/RANDOMLY INTO PAGE */
 #answerDiv {
   width: 900px;
-  /* align-content: center;
-  display: block; */
-  /* font-size: larger;
-  padding: 2%; */
 }
 
 #answerBtn {
