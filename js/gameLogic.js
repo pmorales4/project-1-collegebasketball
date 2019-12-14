@@ -23,6 +23,9 @@ let nQuestion = document.querySelector("#nextBtn");
 let resetBtn = document.querySelector("#resetBtn");
 let exitBtn = document.querySelector("#exitBtn");
 
+let buttons = document.querySelectorAll(".inputAnswer");
+console.log(buttons);
+
 //GETS THE RANDOM QUESTION ONCE YOU CLICK ON THE 'NEXT QUESTION BTN'
 nQuestion.addEventListener("click", function() {
   //GET THE RANDOM ITEM FROM ARRAY OF OBJECTS
@@ -70,74 +73,22 @@ exitBtn.addEventListener("click", function() {
 let answerBtn = document.querySelector("span");
 let wrongAnswer = document.querySelector("span");
 
-// THIS IS THE FIRST CLICK BOX FOR THE ANSWERS
-firstAnswer.addEventListener("click", function() {
-  let pp = triviaGame[randomIndex].Answer[0] == triviaGame[randomIndex].Correct;
-  console.log(pp);
-  if (pp === true) {
-    finalScore = finalScore + 1;
-    nextQuestion();
-    answerBtn.innerHTML = finalScore;
-    if (finalScore == maxScore) {
-      reachTen();
+for (let g = 0; g < buttons.length; g++) {
+  buttons[g].addEventListener("click", function() {
+    let pp =
+      triviaGame[randomIndex].Answer[g] == triviaGame[randomIndex].Correct;
+    console.log(pp);
+    if (pp === true) {
+      finalScore = finalScore + 1;
+      nextQuestion();
+      answerBtn.innerHTML = finalScore;
+      if (finalScore == maxScore) {
+        reachTen();
+      }
+    } else {
+      finalScore = finalScore - 1;
+      wrongAnswer.innerHTML = finalScore;
     }
-  } else {
-    finalScore = finalScore - 1;
-    wrongAnswer.innerHTML = finalScore;
-  }
-  nextQuestion();
-});
-
-// THIS IS THE SECOND CLICK BOX FOR THE ANSWERS
-secondAnswer.addEventListener("click", function() {
-  let pp = triviaGame[randomIndex].Answer[1] == triviaGame[randomIndex].Correct;
-  console.log(pp);
-  if (pp === true) {
-    finalScore = finalScore + 1;
     nextQuestion();
-    answerBtn.innerHTML = finalScore;
-    if (finalScore == maxScore) {
-      reachTen();
-    }
-  } else {
-    finalScore = finalScore - 1;
-    wrongAnswer.innerHTML = finalScore;
-  }
-  nextQuestion();
-});
-
-// THIS IS THE THIRD CLICK BOX FOR THE ANSWERS
-thirdAnswer.addEventListener("click", function() {
-  let pp = triviaGame[randomIndex].Answer[2] == triviaGame[randomIndex].Correct;
-  console.log(pp);
-  if (pp === true) {
-    finalScore = finalScore + 1;
-    nextQuestion();
-    answerBtn.innerHTML = finalScore;
-    if (finalScore == maxScore) {
-      reachTen();
-    }
-  } else {
-    finalScore = finalScore - 1;
-    wrongAnswer.innerHTML = finalScore;
-  }
-  nextQuestion();
-});
-
-// THIS IS THE FORTH CLICK BOX FOR THE ANSWERS
-forthAnswer.addEventListener("click", function() {
-  let pp = triviaGame[randomIndex].Answer[3] == triviaGame[randomIndex].Correct;
-  console.log(pp);
-  if (pp === true) {
-    finalScore = finalScore + 1;
-    nextQuestion();
-    answerBtn.innerHTML = finalScore;
-    if (finalScore == maxScore) {
-      reachTen();
-    }
-  } else {
-    finalScore = finalScore - 1;
-    wrongAnswer.innerHTML = finalScore;
-  }
-  nextQuestion();
-});
+  });
+}
