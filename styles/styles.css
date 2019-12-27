@@ -8,6 +8,10 @@ body {
 .tableOfLogos {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5%;
+ 
+  width: 25%;
+  text-align: center;
 }
 
 /* RESIZE THE CONFERENCE LOGO IMAGES  */
@@ -20,14 +24,14 @@ body {
 
 /* FIRST BUTTON FOR EASY TRIVIA GAME */
 #btn1 {
-  
+
   padding: 5px;
   border: 4px solid rgb(243, 88, 41);
   font-size: medium;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 /* TITLES WITHIN INDEX.HTML */
@@ -40,7 +44,10 @@ h1 {
 
 /* horizontal line on landing page */
 hr {
-  border-top: 3px solid black;
+  border-top: 2px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* italics within statements on homepage */
@@ -52,6 +59,9 @@ h3,
 h4 {
   text-align: center;
   color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* gameHtml page  */
