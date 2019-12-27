@@ -20,3 +20,6 @@ btn1.addEventListener("click", function() {
   document.location.href =
     "https://pmorales4.github.io/project-1-collegebasketball/game.html";
 });
+
+
+//make a tag and css style it. 

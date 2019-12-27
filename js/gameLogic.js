@@ -9,14 +9,14 @@ forthAnswer.innerHTML = triviaGame[0].Answer[3];
 
 // ***************************************************************
 // SET UP OF VARIABLES WITHIN PROJECT
-// FINALSCORE, MAXSCORE --  WITHIN THE CODE FOR HOW MANY QUESTION
+// count, MAXquestions --  WITHIN THE CODE FOR HOW MANY QUESTION
 // TO CHOOSE AND TALLY UP.
 
 // RANDOMINDEX - THIS IS FOR THE RANDOM QUESTION / GLOBALLY.
 
-// LAST THREE ARE TO PULL FROM HTML INTO JAVASCRIPT TO MAKE CONNECTIONS.
+// LAST FIVE ARE TO PULL FROM HTML INTO JAVASCRIPT TO MAKE CONNECTIONS.
 // ***************************************************************
-//let score = 0;
+
 let count = 0;
 let maxQuestions = 10;
 let falseScore = 0;
@@ -45,6 +45,9 @@ nQuestion.addEventListener("click", function() {
 
 //FUNCTION MAKE A NEW SCREEN OF QUESTION AND ANSWERS
 function nextQuestion() {
+  if (falseScore + trueScore >= maxQuestions) {
+    return;
+  }
   randomIndex = Math.floor(Math.random() * triviaGame.length);
   questionDiv.innerHTML = triviaGame[randomIndex].Question;
   firstAnswer.innerHTML = triviaGame[randomIndex].Answer[0];
@@ -94,6 +97,12 @@ exitBtn.addEventListener("click", function() {
 //Created 1 event listener for all 4 button answers.
 for (let g = 0; g < buttons.length; g++) {
   buttons[g].addEventListener("click", function() {
+
+    if (falseScore + trueScore >= maxQuestions) {
+      return;
+    }
+
+
     let pp =
       triviaGame[randomIndex].Answer[g] == triviaGame[randomIndex].Correct;
     if (pp === true) {

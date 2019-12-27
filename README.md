@@ -10,7 +10,7 @@ My love of sports, specifically basketball, motivated me to do this project. As 
 
 # Brief Example Score Explanation:
 
-This is just one example of the scores depending on what you clicked for the answers. You can get 6 correct and 4 wrong thats it (as an example). Reset game as you only allowed 10 questions.
+This is just one example of the scores depending on what you clicked for the answers. You can get 6 correct and 4 wrong thats it (as an example). Reset game as your only allowed 10 questions.
 ![picture](images/readMe/numbers.png)
 
 # Code style

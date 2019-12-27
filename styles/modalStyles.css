@@ -42,7 +42,7 @@ body {
 
 }
 
-.firstModal,
+.firstModal1,
 .firstModal2,
 .firstModal3,
 .firstModal4,
@@ -71,7 +71,7 @@ body {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 7, 20, 0.17);
 }
 
-.closeFirstModal,
+.closeFirstModal1,
 .closeFirstModal2,
 .closeFirstModal3,
 .closeFirstModal4,
@@ -87,8 +87,8 @@ body {
     ;
 }
 
-.closeFirstModal:hover,
-.closeFirstModal:focus,
+.closeFirstModal1:hover,
+.closeFirstModal1:focus,
 .closeFirstModal2:hover,
 .closeFirstModal2:focus,
 .closeFirstModal3:hover,

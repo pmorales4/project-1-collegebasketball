@@ -1,21 +1,21 @@
-
+//change the openm and closem to one loop .  through all modals.
 
 //************* START BUTTONS ABOVE ON LANDING PAGE ***********/
 
 //Below is the Modal Javascript code
 //THIS IS HE FIRST MODAL FOR ATLANTIC 10 LIST
-const firstModal = document.querySelector("#firstModal"); //works
+const firstModal1 = document.querySelector("#firstModal1"); //works
 let modalBtn1 = document.querySelector("#modalBtn1"); // works
-const closeFirstModal = document.querySelector(".closeFirstModal"); // works
-modalBtn1.addEventListener("click", openM); //works
-closeFirstModal.addEventListener("click", closeM);
+const closeFirstModal1 = document.querySelector(".closeFirstModal1"); // works
+modalBtn1.addEventListener("click", openM1); //works
+closeFirstModal1.addEventListener("click", closeM1);
 
-function openM() {
-  firstModal.style.display = "block";
+function openM1() {
+  firstModal1.style.display = "block";
 }
 
-function closeM() {
-  firstModal.style.display = "none";
+function closeM1() {
+  firstModal1.style.display = "none";
 }
 //************* MODAL ATLANTIC 10 ENDS ***********/
 

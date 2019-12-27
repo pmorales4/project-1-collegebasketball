@@ -1,8 +1,6 @@
 /* SET BASE WIDTH TO LANDING PAGE */
 body {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 50px;
+  text-align: center;
   background-color: white;
 }
 
@@ -16,7 +14,7 @@ body {
 .resizeImage {
   height: 150px;
   width: 150px;
-  padding: 2px;
+  padding: 10px;
   border: 3px solid;
 }
 
@@ -53,7 +51,11 @@ h4 {
 
 /* gameHtml page  */
 #gameControls {
-  width: 900px;
+  /* width: 900px; */
+  display: inline-block;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* ALL THREE BUTTONS BELOW ARE ON THE SECOND PAGE OF PROJECT
@@ -94,31 +96,40 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
 
 /* THIS IS WHERE THE QUESTION FROM THE ARRY POPULATES DYNAMICALLY/RANDOMLY INTO PAGE */
 #questionDiv {
+  position: relative;
   align-content: center;
   font-size: x-large;
   font-weight: bold;
-  padding: 15%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* THIS IS WHERE THE ANSWERS FROM THE ARRY POPULATES DYNAMICALLY/RANDOMLY INTO PAGE */
 #answerDiv {
-  width: 900px;
+  margin-top: 5%;
 }
 
-#answerBtn {
+.tableAnswers {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 10px;
+}
+
+/* #answerBtn {
   /* text-align: bottom; */
-  font-size: large;
+/* font-size: large;
   width: 300px;
   padding: 1%;
   margin: 5%;
   border: 2px solid black;
   background-color: rgb(248, 4, 4);
   color: white;
-  display: inline-block;
+  display: block; */
+/* }  */
 
-}
-
-#wrongAnswer {
+/* #wrongAnswer {
   font-size: large;
   width: 140px;
   padding: 2%;
@@ -127,9 +138,9 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
   background-color: rgb(248, 4, 4);
   color: white;
   display: inline-block;
-}
+} */
 
-#countDown {
+/* #countDown {
   font-size: large;
   width: 300px;
   padding: 2%;
@@ -138,77 +149,50 @@ THEY ARE LABELED AS FOLLOWS: 'NEXT QUESTION', 'RESET GAME', 'EXIT GAME'  */
   border: 2px solid black;
   background-color: rgb(21, 89, 167);
   color: white;
-}
+} */
 
 /* THIS IS WHERE THE ONE ANSWER FROM THE ARRAY WITHIN ARRAY POPULATES WITH THE ONE ANSWER ONCE
 YOU LOOP AROUND IT, AND THE SAME FROM ALL THE NEXT THREE LABELED AS 'FIRST', 'SECOND', 'THIRD', 'FORTH'
  */
 /* IF YOU CLICK OVER THEM THEY WILL HIGHTLIGHT TO ANOTHER COLOR */
 #firstAnswer {
-  margin: 1%;
-  text-align: left;
-  font-size: large;
-  width: 600px;
-  padding: 1%;
-  border: 2px solid rgb(248, 4, 4);
-  background-color: black;
-  color: white;
-}
-
-#firstAnswer:focus {
-  background-color: rgb(248, 4, 4);
-  color: black;
+  padding: 0%;
+  border: none;
 }
 
 #secondAnswer {
-  margin: 1%;
-  text-align: left;
-  font-size: large;
-  width: 600px;
-  padding: 1%;
-  border: 2px solid rgb(248, 4, 4);
-  background-color: black;
-  color: white;
-}
-
-#secondAnswer:focus {
-  background-color: rgb(248, 4, 4);
-  color: black;
+  padding: 0%;
+  border: none;
 }
 
 #thirdAnswer {
-  margin: 1%;
-  text-align: left;
-  font-size: large;
-  width: 600px;
-  padding: 1%;
-  border: 2px solid rgb(248, 4, 4);
-  background-color: black;
-  color: white;
-}
-
-#thirdAnswer:focus {
-  background-color: rgb(248, 4, 4);
-  color: black;
+  padding: 0%;
+  border: none;
 }
 
 #forthAnswer {
-  margin: 1%;
-  text-align: left;
-  font-size: large;
-  width: 600px;
-  padding: 1%;
-  border: 2px solid rgb(248, 4, 4);
+  padding: 0% 0% 0% 0%;
+  border: none;
+}
+
+/* DONE WITH THIS SECTION FROM C/W ANSWERS */
+#scorebuttons {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 5%;
+  width: 20%;
+  border: 1px solid rgb(248, 4, 4);
   background-color: black;
   color: white;
 }
 
-#forthAnswer:focus {
-  background-color: rgb(248, 4, 4);
-  color: black;
-}
-
-
-#scoreButtons {
-  display: block;
+/* THESE ARE THE PICS FOR EACH ANSWER KEY / QUESTION */
+img {
+  height: 200px;
+  width: 200px;
+  border: 3px solid rgb(0, 0, 0);
 }
