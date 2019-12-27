@@ -97,11 +97,9 @@ exitBtn.addEventListener("click", function() {
 //Created 1 event listener for all 4 button answers.
 for (let g = 0; g < buttons.length; g++) {
   buttons[g].addEventListener("click", function() {
-
     if (falseScore + trueScore >= maxQuestions) {
       return;
     }
-
 
     let pp =
       triviaGame[randomIndex].Answer[g] == triviaGame[randomIndex].Correct;
@@ -114,4 +112,3 @@ for (let g = 0; g < buttons.length; g++) {
     }
   });
 }
-

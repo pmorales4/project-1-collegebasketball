@@ -1,6 +1,6 @@
 # Project 1 College Basketball Trivia Game
 
-The College Basketball trivia game project is a simple click through of random questions and answers. You will be given ten questions and four answers to choose from for each question. The scoring is done in the following format; click the correct answer your score goes up in increments by one. If you click an incorrect answer it also increments by 1. There is a display for both correct and wrong answers.
+The College Basketball trivia game project is a simple click through of random questions and answers. You will be given ten questions and four picture answers to choose from for each question. The scoring is done in the following format; click the correct answer your score goes up in increments by one. If you click an incorrect answer it also increments by 1. There is a display for both correct and wrong answers.
 
 You are only allowed 10 questions the player wins/loses and the games end.
 
