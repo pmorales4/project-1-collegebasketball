@@ -188,7 +188,7 @@ let triviaGame = [
   },
   {
     Question:
-      "Kentucky was stunned by which all African American starting lineup team in the 1966 National Championship? Hint: a movie was made about this team. ",
+      "Kentucky was stunned by which all African American starting lineup team in the 1966 National Championship? Hint: a movie was made about this team and logo was changed. ",
     Correct:
       '<img src="images/QuestionArray/questionPics/question17/utep.jpg">',
     Answer: [
